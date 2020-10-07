@@ -1,0 +1,3 @@
+displayName = A completely fair and balanced difficulty mod
+author = pbone
+version = 0.1.2

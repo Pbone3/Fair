@@ -1,0 +1,43 @@
+This is a completely fair and balanced mod that makes the game even more "fun" than usual.
+
+Current features include:
+ 1. Drinking a potion gives you nausea. Drinking another potion during this cooldown inflicts a random debuff. Clear it by healing at the nurse.
+ 2. Lava is even more deadly.
+ 3. Certain blocks inflict debuffs while stood on.
+ 4. Vanilla boss changes:
+  4.1. King slime is faster, teleports faster, and shoots projectiles
+  4.2. Eye of cthulhu shoots a few projectiles and is invincible during phase transitions.
+  4.3. Eater of worlds shoots vile spit when hurt, and shoots cursed flames and a damaging corruption-spreading flamethrower.
+  4.4. Brain of cthulhu shoots a damaging, crimson spreading flamethrower, has a ring of invincible creepers, and shoots an ichor shotgun in phase two. Creepers drop damaging blood orbs when killed.
+  4.5. Queen bee is a US trained sniper.
+ 5. Your starting shortsword and pickaxe are removed.
+ 6. Hellstone not only drops lava when hit.
+ 7. A new resource to manage: Hunger!
+ 8. In order to make the game realistic and immersive, your breath meter is now shorter.
+ 9. Boulders are out for blood!
+ 10. Nurse is just a bit weaker.
+ 11. Entering water while electrified does much more damage.
+ 12. Entering lava while on fire does much more damage.
+ 13. While CCed (crowd controlled, ie frozen, stoned, webbed...), you take DoT.
+ 14. You can't use health potions while under mana sickness, because mages are glass cannons after all.
+ 15. In space, no one can hear you scream.
+ 16. Getting hit 13 times during a boss fight instantly kills you.
+ 17 Dust damages you. This can be stopped with a diving helmet or stronger.
+ 18. Drinking a healing potion gives you six seconds of mana sickness.
+ 19. The screen gets darker as you move lower down.
+ 20. Getting hit has a chance to shake the screen for an extended period of time. (may cause motion sickness, be warned)
+ 21. Expert mode is enabled if not already.
+
+If you want to contact me about the mod or suggest new features, I can be found on the tModLoader discord under the username pbone.
+
+Version history:
+  0.1.2:
+    - Publish test
+
+  0.1.1:
+    - Added changes 17 through 21
+    - Some bug fixes
+    - Most bosses where added to, new eye of cthulhu and king slime effects
+
+  0.1:
+    - Added changes 1 through 16
