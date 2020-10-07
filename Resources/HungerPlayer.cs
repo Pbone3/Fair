@@ -10,9 +10,9 @@ using Terraria.ModLoader.IO;
 
 namespace Fair.Resources
 {
-    public class HungerPlayer : ResourcePlayer
+    public class HungerPlayer : ModPlayer
     {
-        public bool IsMoving { get => player.velocity.X > Vector2.Zero.X && player.velocity.Y > Vector2.Zero.Y; }
+        public bool IsMoving { get => Math.Abs(player.velocity.X + player.velocity.Y) > 0; }
         public int UseCounter;
 
         public bool IsSated { get => player.HasBuff(BuffID.WellFed); }
@@ -186,14 +186,14 @@ namespace Fair.Resources
             base.PreUpdate();
         }
 
-        public override void Tick(ulong howManyTicks)
+        public override void PostUpdateBuffs()
         {
-            if (howManyTicks % 180 == 0)
+            if (Main.GameUpdateCount % 180 == 0)
             {
                 DecrementMap[GetFullness()].Invoke();
             }
 
-            if (howManyTicks % 60 == 0)
+            if (Main.GameUpdateCount % 60 == 0)
             {
                 CheckStarving();
             }

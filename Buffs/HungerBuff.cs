@@ -31,7 +31,7 @@ namespace Fair.Buffs
                 "You are " + Regex.Replace(mp.GetFullness().ToString(), "([A-Z])", " $1").Trim(), _lineEnd,
                 "Hunger: " + mp.HungerCurrent.ToString(), "/", HungerPlayer.HungerMax.ToString(), _lineEnd,
                 "Sated: " + (mp.IsSated ? "Yes" : "No"), _lineEnd,
-                "Sateration: " + mp.SatedAmount.ToString(), "/", HungerPlayer.SatedMax.ToString(), _lineEnd
+                "Saturation: " + mp.SatedAmount.ToString(), "/", HungerPlayer.SatedMax.ToString(), _lineEnd
             });
         }
     }
