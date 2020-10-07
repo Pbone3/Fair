@@ -22,15 +22,21 @@ Current features include:
  14. You can't use health potions while under mana sickness, because mages are glass cannons after all.
  15. In space, no one can hear you scream.
  16. Getting hit 13 times during a boss fight instantly kills you.
- 17 Dust damages you. This can be stopped with a diving helmet or stronger.
+ 17. Dust damages you. This can be stopped with a diving helmet or stronger.
  18. Drinking a healing potion gives you six seconds of mana sickness.
  19. The screen gets darker as you move lower down.
  20. Getting hit has a chance to shake the screen for an extended period of time. (may cause motion sickness, be warned)
  21. Expert mode is enabled if not already.
+ 22. Bees have ascended to godhood.
+ 23. Potions may give you more than you bargained for.
+ 24. Enemy health bars are invisible
 
 If you want to contact me about the mod or suggest new features, I can be found on the tModLoader discord under the username pbone.
 
 Version history:
+ 0.1.3:
+    - Icon and github integration
+
   0.1.2:
     - Publish test
 

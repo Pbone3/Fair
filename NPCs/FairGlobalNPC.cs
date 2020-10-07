@@ -11,7 +11,18 @@ namespace Fair.NPCs
         int timer = 0;
         public float[] oldAI = new float[4];
         public override bool InstancePerEntity => true;
-        bool creepersSpawned = false;
+
+        public override bool? DrawHealthBar(NPC npc, byte hbPosition, ref float scale, ref Vector2 position) => false;
+
+        public override void SetDefaults(NPC npc)
+        {
+            if (npc.type == NPCID.Bee || npc.type == NPCID.BeeSmall)
+            {
+                npc.damage = 222;
+                npc.lifeMax = 2222;
+                npc.GivenName = "Emissary of Twenty Two";
+            }
+        }
 
         public override void OnHitByItem(NPC npc, Player player, Item item, int damage, float knockback, bool crit)
         {
@@ -54,6 +65,12 @@ namespace Fair.NPCs
 
         public override bool PreAI(NPC npc)
         {
+            if (npc.type == NPCID.Bee || npc.type == NPCID.BeeSmall)
+            {
+                if (Main.GameUpdateCount % 30 == 0)
+                    Projectile.NewProjectile(npc.Center, npc.DirectionTo(Main.player[npc.target].Center), ProjectileID.PhantasmalEye, 22, 22);
+            }
+
             if (npc.type == NPCID.KingSlime)
             {
                 if (npc.ai[0] + 3 <= 0)

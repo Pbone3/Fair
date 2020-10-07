@@ -69,6 +69,20 @@ namespace Fair.Items
                 hp.ClampStarvingCounter();
             }
 
+            if (item.buffType > 0)
+            {
+                int t = 0;
+
+                while (true)
+                {
+                    t = Main.rand.Next(BuffLoader.BuffCount + 1);
+                    if (Main.debuff[t])
+                        break;
+                }
+
+                player.AddBuff(t, Main.rand.Next(300, 601));
+            }
+
             return base.UseItem(item, player);
         }
     }
