@@ -29,12 +29,15 @@ Current features include:
  21. Expert mode is enabled if not already.
  22. Bees have ascended to godhood.
  23. Potions may give you more than you bargained for.
- 24. Enemy health bars are invisible
+ 24. Enemy health bars are invisible.
 
 If you want to contact me about the mod or suggest new features, I can be found on the tModLoader discord under the username pbone.
 
 Version history:
- 0.1.3:
+  0.1.4:
+    - Added changes 22 through 24
+
+  0.1.3:
     - Icon and github integration
 
   0.1.2:
